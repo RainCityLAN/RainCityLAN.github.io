@@ -1,3 +1,12 @@
+@font-face {
+  font-family: straight;
+  src: url(fonts/bebas.ttf); }
+@font-face {
+  font-family: straight-edged;
+  src: url(fonts/straight-edge.ttf); }
+@font-face {
+  font-family: bullet;
+  src: url(fonts/bullet.ttf); }
 .box {
   margin: 0;
   padding: 0;
@@ -15,23 +24,51 @@
     min-height: 100%;
     min-width: 100%; }
   .box video[poster] {
-    height: 100%;
-    width: 100%; }
-  .box p {
-    z-index: 2;
-    font-size: 120px;
-    font-family: "Lobster";
+    height: 1080px;
+    width: 1920px; }
+
+.Title {
+  z-index: 2;
+  font-size: 120px;
+  position: fixed;
+  top: 20%;
+  right: 0px;
+  bottom: 0px;
+  left: 40%;
+  height: 200px;
+  width: 600px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 0.5; }
+  .Title .straight {
+    font-family: "straight";
     position: fixed;
-    top: 300px;
+    top: 20%;
     right: 0px;
     bottom: 0px;
-    left: 700px;
-    height: 200px;
-    width: 600px;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    opacity: 0.5; }
+    left: 40%; }
+  .Title .bullet {
+    font-family: "bullet";
+    position: fixed;
+    top: 35%;
+    right: 0px;
+    bottom: 0px;
+    left: 40%; }
+
+.footer {
+  position: fixed;
+  top: 90%;
+  right: 0px;
+  bottom: 0px;
+  left: 0%;
+  height: 200px;
+  width: 1800px;
+  background: #333;
+  z-index: 2;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
 
 .toggle {
   position: fixed;
@@ -85,5 +122,11 @@
       padding-left: 160px; }
   #sidebartoggler:checked + .page-wrap .sidebar {
     padding-left: 210px; }
+  #sidebartoggler:checked + .page-wrap .footer {
+    position: fixed;
+    top: 88%;
+    right: 0px;
+    bottom: 0px;
+    left: 9%; }
 
 /*# sourceMappingURL=app.css.map */
