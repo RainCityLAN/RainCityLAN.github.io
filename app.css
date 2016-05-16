@@ -36,25 +36,25 @@
   bottom: 0px;
   left: 40%;
   height: 200px;
-  width: 600px;
+  width: 800px;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   opacity: 0.5; }
   .Title .straight {
     font-family: "straight";
-    position: fixed;
-    top: 20%;
+    position: relative;
+    top: 16%;
     right: 0px;
     bottom: 0px;
-    left: 30%; }
+    left: -20%; }
   .Title .bullet {
     font-family: "bullet";
-    position: fixed;
-    top: 35%;
+    position: relative;
+    top: -40%;
     right: 0px;
     bottom: 0px;
-    left: 30%; }
+    left: -20%; }
 
 .footer {
   position: fixed;
