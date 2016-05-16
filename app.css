@@ -7,20 +7,6 @@
 @font-face {
   font-family: bullet;
   src: url(fonts/bullet.ttf); }
-@media only screen and (max-device-width: 480px) {
-  .page-wrap {
-    position: fixed;
-    top: 50%;
-    right: 0px;
-    bottom: 0px;
-    left: 0%;
-    height: 400px;
-    width: 1800px;
-    background: #333;
-    z-index: 2;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out; } }
 .box {
   margin: 0;
   padding: 0;
@@ -74,7 +60,7 @@
   bottom: 0px;
   left: 0%;
   height: 200px;
-  width: 1800px;
+  width: 2400px;
   background: #333;
   z-index: 2;
   -webkit-transition: all 0.2s ease-in-out;
