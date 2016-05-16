@@ -1,2 +1,0 @@
-1.fix favicon
-2.make screens (transition) by clicking sidebar buttons (mac style where you can go through different menus zoomed out)
