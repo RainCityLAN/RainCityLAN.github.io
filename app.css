@@ -7,8 +7,8 @@
 @font-face {
   font-family: bullet;
   src: url(fonts/bullet.ttf); }
-@media screen and (max-width: 600px) {
-  .footer {
+@media only screen and (max-device-width: 480px) {
+  .page-wrap {
     position: fixed;
     top: 50%;
     right: 0px;
