@@ -7,6 +7,20 @@
 @font-face {
   font-family: bullet;
   src: url(fonts/bullet.ttf); }
+@media screen and (min-width: 600px) {
+  .footer {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    bottom: 0px;
+    left: 0%;
+    height: 200px;
+    width: 1800px;
+    background: #333;
+    z-index: 2;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; } }
 .box {
   margin: 0;
   padding: 0;
@@ -16,9 +30,9 @@
   right: 0px;
   bottom: 0px;
   left: 0;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
   .box video {
     z-index: 0;
     min-height: 100%;
@@ -37,9 +51,6 @@
   left: 40%;
   height: 200px;
   width: 800px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
   opacity: 0.5; }
   .Title .straight {
     font-family: "straight";
@@ -66,9 +77,9 @@
   width: 1800px;
   background: #333;
   z-index: 2;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
 
 .toggle {
   position: fixed;
@@ -82,9 +93,9 @@
   color: white;
   height: 10px;
   width: 10px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
 
 .sidebar {
   position: fixed;
@@ -96,9 +107,9 @@
   padding: 30px;
   background: #333;
   z-index: 3;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
   .sidebar li {
     font-family: "Lobster";
     font-size: 30px;
